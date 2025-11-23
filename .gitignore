@@ -1,8 +1,61 @@
+# Python-specific
 __pycache__/
-.vscode/
-.env
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+venv/
+venv_py310/  # Explicitly include the created virtual environment
+
+# IDE and Editor
+.vscode/    # VS Code settings
+.idea/      # Intellij/PyCharm
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+.jupyter/
+jupyter_notebook_config.py
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Data files (often large or regenerated)
 data/
 *.csv
 *.json
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.fbn
+*.fbx
+*.ain
+*.aih
+*.atx
+*.ixs
+*.mxs
+*.vat
+*.xml
+*.gml
+*.gpx
+*.kml
+*.kmz
+*.geojson
+*.topojson
+
+# Logs and other generated files
 *.log
-.ipynb_checkpoints/
+*.sqlite
+*.db
+*.pickle
+*.pkl
+*.ipynb_checkbook
+
+# Temporary files
+*~
